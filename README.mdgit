@@ -1,0 +1,2 @@
+"# neolearn"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/shasty-venkatesh/neolearn.gitgit push -u origin main
+"# neolearn"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/shasty-venkatesh/neolearn.gitgit push -u origin main

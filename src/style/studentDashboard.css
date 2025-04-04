@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f9ff;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  width: 80%;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #007bff;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.filter-item {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.course-card {
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dynamic Background Colors */
+.blue {
+  background: #007bff;
+}
+.gray {
+  background: #6c757d;
+}
+.yellow {
+  background: #ffc107;
+}
+.pink {
+  background: #e83e8c;
+}
+.purple {
+  background: #6f42c1;
+}
+.gold {
+  background: #fd7e14;
+}
+
+.course-code {
+  font-size: 16px;
+}
+
+.course-name {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.course-semester {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
